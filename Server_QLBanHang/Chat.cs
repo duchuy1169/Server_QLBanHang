@@ -120,7 +120,7 @@ namespace Server_QLBanHang
             {
                 Program.online.Add(data);
                 //Console.Clear();
-                Console.WriteLine("Thông tin nhân viên hiện có \n");
+                Console.WriteLine("Thông tin sản phẩm hiện có \n");
 
                 foreach (string sim in Program.online)
                 {
@@ -190,7 +190,7 @@ namespace Server_QLBanHang
             //Console.Clear();
             Console.WriteLine("\n");
 
-            Console.WriteLine("Thông tin nhân viên hiện có sau khi chỉnh sửa \n");
+            Console.WriteLine("Thông tin sản phẩm hiện có sau khi chỉnh sửa \n");
             foreach (string i in Program.online)
             {
                 Console.WriteLine(dem + " : " + i);
